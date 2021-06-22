@@ -1,0 +1,122 @@
+
+.card__container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 100%;
+h1{
+    width: 90%;
+  text-align: left;
+  text-transform: capitalize;
+    font-size: 2.2vw;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}
+  &--inner{
+    width: 90%;
+    padding: 5px;
+    display: block;
+    &--card{
+      padding: 10px 0;
+      max-width: 308px;
+      color: #fff;
+      font-size: 50px;
+      text-align: center;
+      // background-color: #0a9e88;
+      margin-left: 10px;
+      transition: all .1s ease;
+
+
+
+      h2{
+            color: rgb(58, 58, 58);
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-left: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: left;
+    line-height: 1;
+      }
+      p{
+        font-size: 1vw;
+    font-weight: 400;
+            color: rgb(58, 58, 58);
+            text-align: left;
+            padding-left: 8px;
+            line-height: 0;
+    span{
+    color: rgb(58, 58, 58);
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding-left: 8px;
+    }
+      }
+     img{
+       width: 100%;
+    height: 220px;
+    border-radius: 1vw;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 10px;
+     }
+      
+    
+    &:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+  
+    &--date_time{
+      display: flex;
+      align-items: center;
+margin-top: 5px;      
+      img{
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+      }
+      p{
+      color: #0a9e88;
+        font-weight: bold;
+      }
+    }
+  }
+  }
+	
+}
+
+/* -------------------------------------------------------------- */
+/* SLICK REACT CAROUSEL */
+/* -------------------------------------------------------------- */
+.slick-next,
+.slick-prev {
+  padding: 14px;
+    width: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    border: none;
+    border-radius: 5vw;
+    background-color: #fff;
+    z-index: 99 !important;
+    box-shadow: rgb(35 35 35 / 50%) 0px 0px 20px 5px;
+    top: 40%;
+    &:hover{
+    background-color:#fff;
+
+    }
+}
+
+
+// .slick-next {
+//   // margin-right: 3.2%;
+// }
+// .slick-prev {
+//   // margin-left: .;
+// }
+
